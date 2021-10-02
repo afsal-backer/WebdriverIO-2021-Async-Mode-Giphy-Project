@@ -1,0 +1,93 @@
+{
+  "uid" : "9d68c94c61c4a2dd",
+  "name" : "Click on a gif in trending section.",
+  "fullName" : "Home.Click on a gif in trending section.",
+  "historyId" : "315ddc520a5a0d0aa59a680e17dd3a8c",
+  "time" : {
+    "start" : 1633193134036,
+    "stop" : 1633193136558,
+    "duration" : 2522
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on a gif in trending section."
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a520a318dab10a5c",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"(//div[contains(@class,\"ListWrapper\")]//li//div[contains(@class,\"Container-sc\")])[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1633192971910,
+        "stop" : 1633192983595,
+        "duration" : 11685
+      }
+    }, {
+      "uid" : "4179ec9bd752e6db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192406921,
+        "stop" : 1633192409293,
+        "duration" : 2372
+      }
+    }, {
+      "uid" : "c6f6cba4945b14dd",
+      "status" : "broken",
+      "statusDetails" : "element (\"//h3[text()=\"Treding\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1633192121290,
+        "stop" : 1633192132213,
+        "duration" : 10923
+      }
+    }, {
+      "uid" : "65b6b6a6ba34f60d",
+      "status" : "broken",
+      "statusDetails" : "element (\"//h3[text()=\"Treding\"]\") still not displayed after 10000ms",
+      "time" : {
+        "start" : 1633191770613,
+        "stop" : 1633191782249,
+        "duration" : 11636
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d68c94c61c4a2dd.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

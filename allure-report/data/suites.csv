@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Oct 02 22:15:28 IST 2021","Sat Oct 02 22:15:34 IST 2021","5449","","Home","","Home","Verify Search works","Verify Search works",""
+"passed","Sat Oct 02 22:15:34 IST 2021","Sat Oct 02 22:15:36 IST 2021","2522","","Home","","Home","Click on a gif in trending section.","Click on a gif in trending section.",""
+"passed","Sat Oct 02 22:15:28 IST 2021","Sat Oct 02 22:15:28 IST 2021","227","","Home","","Home","Verify Trending section exists","Verify Trending section exists",""
+"passed","Sat Oct 02 22:15:11 IST 2021","Sat Oct 02 22:15:28 IST 2021","16476","","Home","","Home","Open URL and assert title","Open URL and assert title",""

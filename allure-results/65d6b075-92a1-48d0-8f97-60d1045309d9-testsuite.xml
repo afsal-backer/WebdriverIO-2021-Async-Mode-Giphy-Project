@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633192952460' stop='1633192983596'>
+    <name>Home</name>
+    <title>Home</title>
+    <test-cases>
+        <test-case start='1633192952461' status='passed' stop='1633192965946'>
+            <name>Open URL and assert title</name>
+            <title>Open URL and assert title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633192965947' status='passed' stop='1633192966208'>
+            <name>Verify Trending section exists</name>
+            <title>Verify Trending section exists</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633192966208' status='passed' stop='1633192971910'>
+            <name>Verify Search works</name>
+            <title>Verify Search works</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633192971910' status='broken' stop='1633192983595'>
+            <name>Click on a gif in trending section.</name>
+            <title>Click on a gif in trending section.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call getText on element with selector "(//div[contains(@class,"ListWrapper")]//li//div[contains(@class,"Container-sc")])[1]" because element wasn't found</message>
+                <stack-trace>Error: Can't call getText on element with selector "(//div[contains(@class,"ListWrapper")]//li//div[contains(@class,"Container-sc")])[1]" because element wasn't found
+                    at Object.implicitWait [as default] (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/utils/implicitWait.js:34:19)
+                    at Element.elementErrorHandlerCallbackFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/middlewares.js:20:29)
+                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Context.&lt;anonymous> (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/test/specs/home.js:79:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

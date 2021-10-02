@@ -1,0 +1,58 @@
+{
+  "uid" : "c6f6cba4945b14dd",
+  "name" : "Click on a gif in trending section.",
+  "fullName" : "Home.Click on a gif in trending section.",
+  "historyId" : "315ddc520a5a0d0aa59a680e17dd3a8c",
+  "time" : {
+    "start" : 1633192121290,
+    "stop" : 1633192132213,
+    "duration" : 10923
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//h3[text()=\"Treding\"]\") still not displayed after 10000ms",
+  "statusTrace" : "Error: element (\"//h3[text()=\"Treding\"]\") still not displayed after 10000ms\n                    at /Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23\n                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at Element.elementErrorHandlerCallbackFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/middlewares.js:24:32)\n                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)\n                    at Context.<anonymous> (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/test/specs/home.js:67:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on a gif in trending section."
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6f6cba4945b14dd.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

@@ -1,0 +1,41 @@
+[ {
+  "uid" : "9d68c94c61c4a2dd",
+  "name" : "Click on a gif in trending section.",
+  "time" : {
+    "start" : 1633193134036,
+    "stop" : 1633193136558,
+    "duration" : 2522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "424fc8f860d0b46",
+  "name" : "Verify Search works",
+  "time" : {
+    "start" : 1633193128587,
+    "stop" : 1633193134036,
+    "duration" : 5449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0cf5f9a1fff3223",
+  "name" : "Open URL and assert title",
+  "time" : {
+    "start" : 1633193111883,
+    "stop" : 1633193128359,
+    "duration" : 16476
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b141bc39d8d58996",
+  "name" : "Verify Trending section exists",
+  "time" : {
+    "start" : 1633193128360,
+    "stop" : 1633193128587,
+    "duration" : 227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

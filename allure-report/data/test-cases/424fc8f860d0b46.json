@@ -1,0 +1,90 @@
+{
+  "uid" : "424fc8f860d0b46",
+  "name" : "Verify Search works",
+  "fullName" : "Home.Verify Search works",
+  "historyId" : "af3a55349439598b135c88701065e29b",
+  "time" : {
+    "start" : 1633193128587,
+    "stop" : 1633193134036,
+    "duration" : 5449
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Search works"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3e08e67b146a9b82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192966208,
+        "stop" : 1633192971910,
+        "duration" : 5702
+      }
+    }, {
+      "uid" : "bdc341134376374d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192401139,
+        "stop" : 1633192406921,
+        "duration" : 5782
+      }
+    }, {
+      "uid" : "ef9ebe078a395973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192116247,
+        "stop" : 1633192121289,
+        "duration" : 5042
+      }
+    }, {
+      "uid" : "452da47a32ea5bff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633191765189,
+        "stop" : 1633191770613,
+        "duration" : 5424
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "424fc8f860d0b46.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

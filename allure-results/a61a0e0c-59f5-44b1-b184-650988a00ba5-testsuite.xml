@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633191751080' stop='1633191782249'>
+    <name>Home</name>
+    <title>Home</title>
+    <test-cases>
+        <test-case start='1633191751080' status='passed' stop='1633191764986'>
+            <name>Open URL and assert title</name>
+            <title>Open URL and assert title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633191764986' status='passed' stop='1633191765189'>
+            <name>Verify Trending section exists</name>
+            <title>Verify Trending section exists</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633191765189' status='passed' stop='1633191770613'>
+            <name>Verify Search works</name>
+            <title>Verify Search works</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1633191770613' status='broken' stop='1633191782249'>
+            <name>Click on a gif in trending section.</name>
+            <title>Click on a gif in trending section.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//h3[text()="Treding"]") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("//h3[text()="Treding"]") still not displayed after 10000ms
+                    at /Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/commands/browser/waitUntil.js:66:23
+                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Element.elementErrorHandlerCallbackFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Element.elementErrorHandlerCallbackFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at Element.wrapCommandFn (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/node_modules/@wdio/utils/build/shim.js:131:29)
+                    at Context.&lt;anonymous> (/Users/afsalbacker/Desktop/WebdriverIO-Giphy-Project/test/specs/home.js:67:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

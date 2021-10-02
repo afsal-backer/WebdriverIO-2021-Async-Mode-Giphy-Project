@@ -1,0 +1,90 @@
+{
+  "uid" : "b141bc39d8d58996",
+  "name" : "Verify Trending section exists",
+  "fullName" : "Home.Verify Trending section exists",
+  "historyId" : "185d5ac458958ef0596aaf2651cece9b",
+  "time" : {
+    "start" : 1633193128360,
+    "stop" : 1633193128587,
+    "duration" : 227
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Trending section exists"
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c707a22909e0ee78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192965947,
+        "stop" : 1633192966208,
+        "duration" : 261
+      }
+    }, {
+      "uid" : "cfc0d3768e1f641",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192400857,
+        "stop" : 1633192401139,
+        "duration" : 282
+      }
+    }, {
+      "uid" : "1325169cb35f3f89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633192116060,
+        "stop" : 1633192116247,
+        "duration" : 187
+      }
+    }, {
+      "uid" : "1e29e0ed830f1701",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633191764986,
+        "stop" : 1633191765189,
+        "duration" : 203
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b141bc39d8d58996.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

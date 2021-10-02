@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Home",
+    "children" : [ {
+      "name" : "Open URL and assert title",
+      "uid" : "f0cf5f9a1fff3223",
+      "parentUid" : "4407ed10bf82118ffd06c3d2bbb0138a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633193111883,
+        "stop" : 1633193128359,
+        "duration" : 16476
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "Verify Trending section exists",
+      "uid" : "b141bc39d8d58996",
+      "parentUid" : "4407ed10bf82118ffd06c3d2bbb0138a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633193128360,
+        "stop" : 1633193128587,
+        "duration" : 227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "Verify Search works",
+      "uid" : "424fc8f860d0b46",
+      "parentUid" : "4407ed10bf82118ffd06c3d2bbb0138a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633193128587,
+        "stop" : 1633193134036,
+        "duration" : 5449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    }, {
+      "name" : "Click on a gif in trending section.",
+      "uid" : "9d68c94c61c4a2dd",
+      "parentUid" : "4407ed10bf82118ffd06c3d2bbb0138a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633193134036,
+        "stop" : 1633193136558,
+        "duration" : 2522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.71" ]
+    } ],
+    "uid" : "4407ed10bf82118ffd06c3d2bbb0138a"
+  } ]
+}

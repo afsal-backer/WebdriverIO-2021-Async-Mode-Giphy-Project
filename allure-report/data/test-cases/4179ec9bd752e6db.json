@@ -1,0 +1,56 @@
+{
+  "uid" : "4179ec9bd752e6db",
+  "name" : "Click on a gif in trending section.",
+  "fullName" : "Home.Click on a gif in trending section.",
+  "historyId" : "315ddc520a5a0d0aa59a680e17dd3a8c",
+  "time" : {
+    "start" : 1633192406921,
+    "stop" : 1633192409293,
+    "duration" : 2372
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Home"
+  }, {
+    "name" : "testClass",
+    "value" : "Home"
+  }, {
+    "name" : "testMethod",
+    "value" : "Click on a gif in trending section."
+  }, {
+    "name" : "package",
+    "value" : "Home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4179ec9bd752e6db.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}
