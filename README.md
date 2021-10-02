@@ -20,11 +20,17 @@ Platform Stack
 ---------------
 
 Website under test: https://giphy.com/
+
 Test framework: https://webdriver.io
+
 Assertion library: https://mochajs.org/
+
 Javascript compiler: https://babeljs.io/
+
 Reporter: https://docs.qameta.io/allure/
+
 Code analyser: https://eslint.org/ 
+
 Browser: Chrome
 
 
