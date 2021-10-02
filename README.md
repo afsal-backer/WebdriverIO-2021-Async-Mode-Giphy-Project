@@ -38,11 +38,15 @@ Test Cases
 ----------
 
 - Make sure a trending section exists
+
 - Make sure search works
-  -- A search field exists
-  -- Can type text into search field
-  -- Results are displayed after a search
+ 
+ -- A search field exists
+ -- Can type text into search field
+ -- Results are displayed after a search
+
 - Click on a gif in trending section
+  
   -- It goes to a page that shows the clicked on gif
 
 
