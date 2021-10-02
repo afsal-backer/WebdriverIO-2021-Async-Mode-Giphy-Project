@@ -43,13 +43,15 @@ Test Cases
  
   -- A search field exists
  
-  -- Can type text into search field
+  -- Can type text into search field [Types "football"]
  
-  -- Results are displayed after a search
+  -- Results are displayed after a search [Verifies results page has title header "football". Navigates back to home page.]
 
 - Click on a gif in trending section
   
   -- It goes to a page that shows the clicked on gif
+  
+  -- Extracts the name of the gif and displays it on console
 
 
 
