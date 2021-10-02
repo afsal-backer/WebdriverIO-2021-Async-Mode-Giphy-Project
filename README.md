@@ -41,11 +41,11 @@ Test Cases
 
 - Make sure search works
  
- -- A search field exists
+  -- A search field exists
  
- -- Can type text into search field
+  -- Can type text into search field
  
- -- Results are displayed after a search
+  -- Results are displayed after a search
 
 - Click on a gif in trending section
   
