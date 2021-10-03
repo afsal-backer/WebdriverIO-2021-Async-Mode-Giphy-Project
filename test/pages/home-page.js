@@ -7,7 +7,7 @@ class Homepage{
         return browser.url('/')
     }
 
-    //method to verify Trending section header text is displayed
+    //method to return webelement of trending section header text 
     verifyTrendingSection(){
         return $('//h3[text()="Trending"]');
     }
